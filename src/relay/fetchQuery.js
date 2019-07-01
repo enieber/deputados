@@ -1,7 +1,7 @@
 import  { Variables, UploadableMap } from 'react-relay';
 import  { RequestNode } from 'relay-runtime';
 
-export const GRAPHQL_URL = 'http://localhost:5000/graphql';
+export const GRAPHQL_URL = 'https://graphql-camara-deputados.herokuapp.com/';
 
 // Define a function that fetches the results of a request (query/mutation/etc)
 // and returns its results as a Promise:
